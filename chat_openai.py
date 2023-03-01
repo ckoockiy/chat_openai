@@ -22,7 +22,6 @@ def generate_response(prompt):
 def chat():
     # Inicia el loop del chatbot
     while True:
-        # "Genera un script en python que convierta texto a voz"
         prompt = input("> ")
         response = generate_response(prompt)
         print(response)
