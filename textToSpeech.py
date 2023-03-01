@@ -11,5 +11,3 @@ def convertir_texto_a_voz(texto, idioma="es"):
     # Reproduce el archivo de sonido
     playsound("locucion.mp3")
 
-
-#convertir_texto_a_voz("no andes de toxica")
